@@ -1,5 +1,5 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Cuenta números
+# Suma números
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
 `exercise.py` y que contiene el siguiente código:
@@ -7,66 +7,49 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 ```python
 def main():
   #escribe tu código abajo de esta línea
+  pass
 
 if __name__ == '__main__':
     main()
 ```
+
 La línea `#escribe tu código abajo de esta línea` es un comentario,
 el programa la va a ignorar al ejecutarse.
 
-Agrega una nueva línea abajo del comentario con el código para que lea un número positivo n,
-e imprima todos los números en orden desde el 1 hasta n.
-Cada uno de los números debe ser impreso en una linea por separado.
+Escribe un programa que sume los números enteros (positivos y negativos) que el usuario teclee y se detenga hasta que el usuario teclee un cero.
 
 #### Entrada
-Un número entero positivo n
+Una secuencia de números enteros positivos o negativos. La secuencia debe terminar con un 0.
 
 #### Salida
-Los números enteros desde 1 hasta n, uno en cada renglón
+La suma de los números tecleados.
 
 #### NOTA IMPORTANTE:
 Tu programa NO debe incluir ningún mensaje para pedir los datos y la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
 
-La salida del programa debe de ser exactamente de la siguiente forma:
+El programa debe funcionar de la siguiente forma:
 
 ```
-5
+1
+2
+0
+3
+
+100
+200
+0
+300
+
+1
+-1
+0
+0
+
 1
 2
 3
-4
-5
-
-
-
-15
-1
-2
-3
-4
-5
+0
 6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-
-10
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
 
 ```
 
@@ -75,6 +58,3 @@ La salida del programa debe de ser exactamente de la siguiente forma:
 No la vamos a necesitar para este programa, pero es una buena práctica
 incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 
-Una vez que termines tu actividad y la hayas probado con
-`python -m pytest --tb=short -v`, subela a tu repositorio en GitHub,
-con el proceso de commit + push.
