@@ -4,7 +4,7 @@
 - 00 Suma Números
 - 01 Suma Hasta N
 
-## Resolver problemas guiado con el Tutor Inteligente
+## Resolver problemas guiado con el Tutor de IA
 
 1. Abre GitHub Copilot (`Ctrl+Alt+I`).
 2. Selecciona el modo `Ask` y el modelo `GPT 4.1`.
