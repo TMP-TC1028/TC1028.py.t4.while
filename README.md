@@ -10,7 +10,7 @@
 2. Selecciona el modo `Ask` y el modelo `GPT 4.1`.
 4. Usa el *prompt*:
 ```
-/res-prob
+/res-prob-tutor
 ```
 y sigue los pasos que ahí te señala.
 
