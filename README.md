@@ -4,6 +4,16 @@
 - 00 Suma Números
 - 01 Suma Hasta N
 
+## Resolver problemas guiado con el Tutor Inteligente
+
+1. Abre GitHub Copilot (`Ctrl+Alt+I`).
+2. Selecciona el modo `Ask` y el modelo `GPT 4.1`.
+4. Usa el *prompt*:
+```
+/res-prob
+```
+y sigue los pasos que ahí te señala.
+
 ## Revisión de estándares de codificación con IA
 
 1. Abre GitHub Copilot (`Ctrl+Alt+I`).
